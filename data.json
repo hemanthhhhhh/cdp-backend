@@ -1,0 +1,129 @@
+{
+    "Segment": {
+      "set_up_source": {
+        "question_variants": [
+          "How do I set up a new source in Segment?",
+          "How can I add a new source to Segment?",
+          "What are the steps to add a new source in Segment?"
+        ],
+        "answer": "To set up a new source in Segment, log in to your Segment account, navigate to the 'Sources' tab, and click 'Add Source'. Follow the on-screen instructions to configure your new source."
+      },
+      "create_destination": {
+        "question_variants": [
+          "How do I create a new destination in Segment?",
+          "How can I add a new destination to Segment?",
+          "What are the steps to add a new destination in Segment?"
+        ],
+        "answer": "To create a new destination in Segment, log in to your account, go to the 'Destinations' tab, and click 'Add Destination'. Select the desired destination from the catalog and follow the setup instructions."
+      },
+      "track_event": {
+        "question_variants": [
+          "How do I track an event in Segment?",
+          "What is the method to track events using Segment?",
+          "How can I send event data to Segment?"
+        ],
+        "answer": "To track an event in Segment, use the 'track' method provided by Segment's SDKs. This method records any actions your users perform, along with properties about the action."
+      },
+      "identify_user": {
+        "question_variants": [
+          "How do I identify a user in Segment?",
+          "What is the method to identify users using Segment?",
+          "How can I set user identity in Segment?"
+        ],
+        "answer": "To identify a user in Segment, use the 'identify' method provided by Segment's SDKs. This method associates a user with their unique ID and any optional traits you know about them."
+      },
+      "group_users": {
+        "question_variants": [
+          "How do I group users in Segment?",
+          "What is the method to group users using Segment?",
+          "How can I create user groups in Segment?"
+        ],
+        "answer": "To group users in Segment, use the 'group' method provided by Segment's SDKs. This method associates an individual user with a group, like a company or organization, and includes any traits about the group."
+      }
+    },
+    "mParticle": {
+      "create_user_profile": {
+        "question_variants": [
+          "How can I create a user profile in mParticle?",
+          "How do I create a user profile in mParticle?",
+          "What are the steps to set up a user profile in mParticle?"
+        ],
+        "answer": "To create a user profile in mParticle, utilize the 'Identify' API call within the mParticle SDK. This call sets the user identity and attributes, establishing a user profile in the system."
+      },
+      "log_event": {
+        "question_variants": [
+          "How do I log an event in mParticle?",
+          "What is the method to log events using mParticle?",
+          "How can I send event data to mParticle?"
+        ],
+        "answer": "To log an event in mParticle, use the 'logEvent' method provided by mParticle's SDKs. This method records user interactions or occurrences within your application."
+      },
+      "set_user_attributes": {
+        "question_variants": [
+          "How do I set user attributes in mParticle?",
+          "What is the method to assign user attributes using mParticle?",
+          "How can I update user attributes in mParticle?"
+        ],
+        "answer": "To set user attributes in mParticle, use the 'setUserAttribute' method provided by mParticle's SDKs. This method assigns specific attributes to a user profile, such as age or gender."
+      },
+      "integrate_with_segment": {
+        "question_variants": [
+          "How can I integrate mParticle with Segment?",
+          "What are the steps to connect mParticle to Segment?",
+          "How do I set up mParticle and Segment integration?"
+        ],
+        "answer": "To integrate mParticle with Segment, configure the integration settings in both platforms, ensuring that data flows correctly between them. Refer to the official documentation for detailed setup instructions."
+      },
+      "enable_localytics": {
+        "question_variants": [
+          "How do I enable Localytics in mParticle?",
+          "What are the steps to integrate Localytics with mParticle?",
+          "How can I connect Localytics to mParticle?"
+        ],
+        "answer": "To enable Localytics in mParticle, add the Localytics Kit to your iOS or Android app and configure the necessary settings in the mParticle dashboard. Detailed instructions are available in the mParticle documentation."
+      }
+    },
+    "Lytics": {
+      "install_lytics_tag": {
+        "question_variants": [
+          "How do I install the Lytics tag on my website?",
+          "What are the steps to add the Lytics tag to my site?",
+          "How can I implement the Lytics tracking tag?"
+        ],
+        "answer": "To install the Lytics tag on your website, add the provided JavaScript snippet to your site's HTML, just before the closing </head> tag. This enables data collection for Lytics."
+      },
+      "build_user_profiles": {
+        "question_variants": [
+          "How can I build user profiles in Lytics?",
+          "What is the process to create user profiles using Lytics?",
+          "How do I generate user profiles in Lytics?"
+        ],
+        "answer": "Lytics automatically builds user profiles by collecting data from various sources. Ensure that your data sources are properly connected to allow Lytics to unify and analyze user data effectively."
+      },
+      "create_audience": {
+        "question_variants": [
+          "How do I create an audience in Lytics?",
+          "What are the steps to build an audience using Lytics?",
+          "How can I define a new audience in Lytics?"
+        ],
+        "answer": "To create an audience in Lytics, navigate to the 'Audiences' section, click 'New Audience', and define your audience criteria using the available filters and conditions."
+      },
+      "activate_data": {
+        "question_variants": [
+          "How can I activate my data in Lytics?",
+          "What are the steps to use data activation features in Lytics?",
+          "How do I leverage data activation in Lytics?"
+        ],
+        "answer": "To activate your data in Lytics, use the 'Activations' feature to send audience data to connected marketing tools and platforms, enabling personalized customer engagement."
+      },
+      "use_content_affinity": {
+        "question_variants": [
+          "How do I utilize content affinity in Lytics?",
+          "What is the method to apply content affinity features in Lytics?",
+          "How can I leverage content affinity in Lytics?"
+        ],
+        "answer": "Lytics' Content Affinity feature analyzes user interactions to determine content preferences. Use this information to personalize content recommendations and improve user engagement."
+      }
+    }
+  }
+  
