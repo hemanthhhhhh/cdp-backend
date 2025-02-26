@@ -8,7 +8,7 @@ const port = 5000;
 
 // Updated CORS configuration
 app.use(cors({
-  origin: 'https://radiant-capybara-2c8b8c.netlify.app/',  
+  origin: 'https://radiant-capybara-2c8b8c.netlify.app',  
   optionsSuccessStatus: 200  
 }));
 
